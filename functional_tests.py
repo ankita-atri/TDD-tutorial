@@ -15,7 +15,7 @@ class NewVisitorTest(unittest.TestCase):
 
         # assertEqual, assertTrue, assertFalse
         # check title and header
-        self.assertIn("Congratulations", self.browser.title)
+        self.assertIn("To-Do", self.browser.title)
 
         self.fail("Finish the test!")
 
